@@ -1,0 +1,17 @@
+1.create the Link List.
+2.Add the n number of elements in the Ending of the list.
+3.Add the n number of elements in the Starting of the  list.
+4.Add the  elements in the List at the specified position using index value.
+5.Add the  elements in the List at the specified position (After the specified key that occure first).
+6.Add the  elements in the List at the specified position (Before the specified key that occure first).
+7.Remove the  elements in the Ending of the list.
+8.Remove the  elements in the Starting of the  list.
+9.Remove the  elements in the List at the specified position.
+10.Remove the  elements in the List at the specified position (After the specified key that occure first).
+11.Remove the  elements in the List at the specified position (After the specified key that occure first).
+12.Search the element in the List.
+13.count how many elements are exit in the List that are equal to the given key value.
+14.Reverse the existing elements of the Link List.
+
+
+
