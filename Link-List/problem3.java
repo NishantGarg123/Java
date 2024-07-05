@@ -1,4 +1,4 @@
-//Ques- write java code to add the element in the starting of link list.
+//Ques-3. write java code to add the element in the starting of link list.
 import java.util.Scanner;
 
 public class problem3{

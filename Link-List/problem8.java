@@ -1,8 +1,8 @@
-//5.Add the  elements in the List at the specified position (Before the specified key that occure first).
+//8.Remove the  elements in the Starting of the  list.
 
 import java.util.Scanner;
 
-public class problem6{
+public class problem8{
 
     //===================================================================================================>
         //class that define the structure of the link list
@@ -23,7 +23,7 @@ public class problem6{
         //main method 
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
-            problem6 ll  = new problem6();
+            problem8 ll  = new problem8();
             System.out.println("Enter how many elements do you wants to add in the initial link list");
             int n = sc.nextInt();
             for(int i=1; i<=n ;i++)
@@ -34,38 +34,39 @@ public class problem6{
             }
             System.out.print("This is a existing List");
             ll.printlist();
-            System.out.print("Now enter the element which you want to add :-");
-            int key = sc.nextInt();
-            System.out.print("Enter the 'KEY' Before which you wants to add the element :");
-           int position = sc.nextInt();
-            add_UsingKEY(key , position);
+           System.out.println("------------------------------------------------------------");
+            System.out.println("enter 1 if you wants to delete the first node");
+            System.out.println("enter 0 if you do not wants to delete the first node");
+            int flag =sc.nextInt();
+            if(flag ==1)
+            {
+                delElement_First();            
+            }
+            
             ll.printlist();
     
         }
       //===================================================================================================>
 
       //===================================================================================================>
-        // logic to add the elements at the specified position using the index value
-        public static void add_UsingKEY( int key, int position)
+        // logic to delete the elements using from the Ending of the list.
+        public static void delElement_First()
         {
-            Node n1 = new Node();
-            n1.data = key;
-            n1.link =null;
-
-            Node ptr = head;
-            while((ptr.link).data != position)
+            if(head == null)
             {
-                ptr = ptr.link;
-                if(ptr.link == null)
-                {
-                    System.out.println("key not exist");
-                    return;
-                }
+                System.out.println("List is empty");
             }
-            n1.link = ptr.link;
-            ptr.link = n1;
+            else if(head.link == null)
+            {
+                head = null;
+            }
+            else
+            {
+                head = head.link;
+            }
 
-        }   
+        }
+ 
       //===================================================================================================>
     
     

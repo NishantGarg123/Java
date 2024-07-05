@@ -1,4 +1,4 @@
-//Ques- write java code to add the element in the specified position of link list using the index value.
+//Ques-4. write java code to add the element in the specified position of link list using the index value.
 import java.util.Scanner;
 
 public class problem4{

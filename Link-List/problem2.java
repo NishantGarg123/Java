@@ -1,4 +1,4 @@
-//Ques- write java code to add the element in the end of the link list.
+//Ques-2. write java code to add the element in the end of the link list.
 import java.util.Scanner;
 
 public class problem2{

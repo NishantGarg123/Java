@@ -1,6 +1,5 @@
 //5.Add the  elements in the List at the specified position (After the specified key that occure first).
 
-//Ques- write java code to add the element in the specified position of link list using the index value.
 import java.util.Scanner;
 
 public class problem5{

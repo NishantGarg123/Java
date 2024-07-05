@@ -1,6 +1,4 @@
 // 7.Remove the  elements in the Ending of the list.
-
-//Ques- write java code to add the element in the specified position of link list using the index value.
 import java.util.Scanner;
 
 public class problem7{

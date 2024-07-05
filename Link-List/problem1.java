@@ -1,4 +1,4 @@
-//Ques-Write the java code to create the Link List.
+//Ques-1.Write the java code to create the Link List.
 public class problem1{
 
     //===================================================================================================>
