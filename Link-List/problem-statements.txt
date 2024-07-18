@@ -1,3 +1,5 @@
+Note:- Link_List.java file contain all operation implementation of link list.
+
 1.create the Link List.
 2.Add the n number of elements in the Ending of the list.
 3.Add the n number of elements in the Starting of the  list.
